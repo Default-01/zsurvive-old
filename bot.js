@@ -84,37 +84,30 @@ process
 			if (reason.toString().includes(element)) shouldSend = false;
 		});
 		if (shouldSend) console.log(reason);
-		// if (shouldSend) sendError(reason);
+		if (shouldSend) sendError(reason);
 	})
 	.on('uncaughtException', (err) => {
-		// sendError(err);
+		sendError(err);
 		console.log(err);
 	});
 
 client.login(envconfig.BotToken);
 
-// const {Webhook, MessageBuilder} = require('discord-webhook-node');
-// const errorhook = new Webhook(envconfig.ErrorWebhook);
+const { Webhook, MessageBuilder } = require('discord-webhook-node');
+const errorhook = new Webhook(envconfig.ErrorWebhook);
 
-// function sendError(err) {
+function sendError(err) {
+	if (envconfig.Dev) console.log(err);
 
-//     if (envconfig.Dev) console.log(err);
+	let error = err.toString();
+	if (err.stack) error = err.stack.toString();
 
-//     let error = err.toString();
-//     if (err.stack) error = err.stack.toString();
+	try {
+		if (error === '[object Response]') return; // Too many requests discord api
 
-//     try {
-
-//         if (error === '[object Response]') return; // Too many requests discord api
-
-//         const embed = new MessageBuilder()
-//             .setTitle('Beep boop... I had an error!')
-//             .setColor(14036783)
-//             .setThumbnail('https://images.emojiterra.com/google/android-nougat/512px/26a0.png')
-//             .setDescription(error);
-//         errorhook.send(embed);
-
-//     } catch (e) {
-//         console.error(e + 'For some reason I could not send this to error Discord channel:\n\n', err);
-//     }
-// }
+		const embed = new MessageBuilder().setTitle('New Error').setColor(14036783).setDescription(error);
+		errorhook.send(embed);
+	} catch (e) {
+		console.error(e + 'For some reason I could not send this to error Discord channel:\n\n', err);
+	}
+}
