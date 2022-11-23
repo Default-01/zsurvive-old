@@ -67,7 +67,7 @@ module.exports = {
 
 			let upgradeTxt = '';
 			if (user.premium < 4)
-				upgradeTxt = `\n\nRemember you can always [upgrade](https://www.patreon.com/zsurvive) your Patron tier to get better perks such as more ZCoins every month, extra energy limit points and a greater farm multiplier!`;
+				upgradeTxt = `\n\nRemember you can always [upgrade](https://www.patreon.com/XZurvive) your Patron tier to get better perks such as more ZCoins every month, extra energy limit points and a greater farm multiplier!`;
 
 			let embed = new MessageEmbed()
 				.setTitle(`ZSurvive | Patreon`)
