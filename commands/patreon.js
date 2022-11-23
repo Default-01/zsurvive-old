@@ -13,7 +13,7 @@ module.exports = {
 		if (!message.guild || message.guild.id !== '503243929559367710') {
 			let embed = new MessageEmbed()
 				.setTitle(`ZSurvive | Patreon`)
-				.setDescription(`<@${message.author.id}> This command can only be used from [**our server**](https://zsurvive.xyz/discord?x=patreoncmdtodiscord)!`)
+				.setDescription(`<@${message.author.id}> This command can only be used from [**our server**](https://discord.gg/aK47YhtynP)!`)
 				.setColor(config.EmbedsColor)
 				.setThumbnail(config.Images.Premium)
 				.setFooter(lang.defaultFooter, config.Logo);
@@ -67,7 +67,7 @@ module.exports = {
 
 			let upgradeTxt = '';
 			if (user.premium < 4)
-				upgradeTxt = `\n\nRemember you can always [upgrade](https://zsurvive.xyz/patreon?x=patreoncmd) your Patron tier to get better perks such as more ZCoins every month, extra energy limit points and a greater farm multiplier!`;
+				upgradeTxt = `\n\nRemember you can always [upgrade](https://www.patreon.com/XZurvive) your Patron tier to get better perks such as more ZCoins every month, extra energy limit points and a greater farm multiplier!`;
 
 			let embed = new MessageEmbed()
 				.setTitle(`ZSurvive | Patreon`)
