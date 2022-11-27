@@ -8,7 +8,7 @@ const coinsReward = config.VoteReward;
 const DBL = require('dblapi.js');
 let request = require('request');
 
-const dbl = new DBL(dblToken, { webhookPort: 8080, webhookAuth: envconfig.dblWebhookAuth });
+const dbl = new DBL(dblToken, { webhookPort: 8050, webhookAuth: envconfig.dblWebhookAuth });
 
 dbl.on('error', (e) => {
 	console.log(`Oops! ${e}`);
