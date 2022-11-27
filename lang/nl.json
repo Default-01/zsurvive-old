@@ -174,7 +174,7 @@
 	"notifEnergyTitle": "Energiemelding",
 	"notifEnergyDesc": "Hé, **je energie is nu vol** ({energy}/{maxenergy})! Kom terug en blijf boeren om meer upgrades te maken :smirk:",
 	"notifVoteTitle": "Stemherinnering",
-	"notifVoteDesc": "U kunt nu [**opnieuw stemmen**](https://zsurvive.xyz/vote)! Vergeet niet om het **elke 12 uur** te doen om beloond te worden met **ZCoins**.",
+	"notifVoteDesc": "U kunt nu [**opnieuw stemmen**](https://top.gg/bot/1041448694765060166/vote)! Vergeet niet om het **elke 12 uur** te doen om beloond te worden met **ZCoins**.",
 	"notifTurnOffGuide": "**Als u deze herinneringen niet nuttig vindt**, typ dan `z notifications off` en u zult ze niet meer ontvangen.",
 	"missingPermissions": "De bot **heeft niet genoeg __permissions__** in dit kanaal. Als je een serverbeheerder bent, zorg er dan voor dat ik de volgende rechten heb:",
 	"neededPermissions": [
@@ -183,7 +183,7 @@
 		"**USE EXTERNAL EMOJIS** Dan kan ik mijn eigen emojis gebruiken."
 	],
 	"vote": "Stemmen",
-	"voteDesc": "**Stem op ZSurvive **in slechts een paar klikken** en word **beloond** met **__{munten} ZCoins__ **!\n\n[**Klik hier**](https://zsurvive.xyz/vote) om **stemmen**. Zodra je het hebt gedaan, ontvang je per privébericht een bevestiging van je beloning.",
+	"voteDesc": "**Stem op ZSurvive **in slechts een paar klikken** en word **beloond** met **__{munten} ZCoins__ **!\n\n[**Klik hier**](https://top.gg/bot/1041448694765060166/vote) om **stemmen**. Zodra je het hebt gedaan, ontvang je per privébericht een bevestiging van je beloning.",
 	"statsTitle": "Overlever's statistieken",
 	"stats_bossesKilled": "**Verslagen bazen**: {amount}",
 	"stats_coinsSpent": "**Gebruikte munten**: {amount}",

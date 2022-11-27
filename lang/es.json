@@ -174,7 +174,7 @@
 	"notifEnergyTitle": "Notificación de energía",
 	"notifEnergyDesc": "Hey, ¡**tu energía está llena** ({energy}/{maxenergy})! No olvides farmear recursos para seguir haciendo mejoras :smirk:",
 	"notifVoteTitle": "Recordatorio para votar",
-	"notifVoteDesc": "Hola, ¡ya puedes [**votar nuevamente**](https://zsurvive.xyz/vote)! Recuerda hacerlo **cada 12 horas** para ganar **ZCoins**.",
+	"notifVoteDesc": "Hola, ¡ya puedes [**votar nuevamente**](https://top.gg/bot/1041448694765060166/vote)! Recuerda hacerlo **cada 12 horas** para ganar **ZCoins**.",
 	"notifTurnOffGuide": "**Si piensas que estos recordatorios no son útiles**, usa el comando `z notifications off` para dejar de recibirlos.",
 	"missingPermissions": "El bot **no tiene suficientes __permisos__** en este canal. Si eres admin, asegúrate de que ZSurvive tenga los permisos necesarios:",
 	"neededPermissions": [
@@ -183,7 +183,7 @@
 		"**UTILIZAR EMOJIS EXTERNOS**."
 	],
 	"vote": "Votar",
-	"voteDesc": "¡**Vota a ZSurvive** en tan solo unos **pocos clicks** y se **recompensado** con **__{coins} ZCoins__**!\n\n[**Click aquí**](https://zsurvive.xyz/vote) para **votar**. Cuando lo hagas, recibirás una confirmación de tu recompensa por mensaje privado.",
+	"voteDesc": "¡**Vota a ZSurvive** en tan solo unos **pocos clicks** y se **recompensado** con **__{coins} ZCoins__**!\n\n[**Click aquí**](https://top.gg/bot/1041448694765060166/vote) para **votar**. Cuando lo hagas, recibirás una confirmación de tu recompensa por mensaje privado.",
 	"statsTitle": "Survivor stats",
 	"stats_bossesKilled": "**Bosses derrotados**: {amount}",
 	"stats_coinsSpent": "**ZCoins gastadas**: {amount}",
