@@ -55,7 +55,7 @@ async function updateDBLcount() {
 	let server_count = result.reduce((prev, guildCount) => prev + guildCount, 0);
 
 	let options = {
-		uri: `https://top.gg/api/bots/712738481285103676/stats`,
+		uri: `https://top.gg/api/bots/1041448694765060166/stats`,
 		method: 'POST',
 		json: {
 			server_count: server_count,
