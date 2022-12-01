@@ -2,7 +2,7 @@ let mysql = require('mysql');
 const envconfig = require('../envconfig.json');
 
 let sql = mysql.createPool({
-	connectionLimit: 6,
+	connectionLimit: 5,
 	database: envconfig.MySQL.database,
 	host: envconfig.MySQL.host,
 	user: envconfig.MySQL.user,
